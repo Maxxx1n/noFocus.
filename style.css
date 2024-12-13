@@ -3,14 +3,15 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 body {
     display: flex;
-    padding: 0 10px;
     justify-content: center;
-}
+    background: #FADADD;
+} 
+
 .body {
-    padding: 10px 0;
-    width: 1024px;
+    width: 1025px;
     background: #FADADD;
 }
 
@@ -20,53 +21,55 @@ body {
     
     display: flex;
     justify-content: center;
-    gap: 25px
+    gap: 50px
 }
 
 .top-button {
-   padding: 0 30px;
+   padding: 10px 30px;
    
    border: none;
    background: #FADADD;
    
    font-family: 'IBM Plex Mono';
-   font-size: 18px;
+   font-size: 20px;
    font-weight: 400;
    line-height: 18px;
    text-align: center;
 }
 
 .top-button:hover {
-   padding: 0 29px;
+   padding: 9px 29px;
    
    border: 1px #FF0070 solid;
    background: #FADADD;
    
    font-family: 'IBM Plex Mono';
-   font-size: 18px;
+   font-size: 20px;
    font-weight: 400;
    line-height: 18px;
-   text-align: center
+   text-align: center;
 }
 
 .isActionButton {
-   padding: 0 29px;
+   padding: 9px 29px;
    
    border: 1px #FF0070 solid;
    background: #FADADD;
    
    font-family: 'IBM Plex Mono';
-   font-size: 18px;
+   font-size: 20px;
    font-weight: 400;
    line-height: 18px;
    text-align: center
 }
 
-.main-text { 
+.main-text {
+    padding-left: 25px;
+    
     font-family: 'IBM Plex Mono';
-    font-size: 157px;
+    font-size: 160px;
     font-weight: 700;
-    line-height: 129.53px;
+    line-height: 130px;
     text-align: left;
     
     color: #FFC2E6;
@@ -74,7 +77,8 @@ body {
 }
 
 .sub-title {
-   padding-top: 100px;
+   padding-top: 150px;
+   padding-right: 25px;
    padding-bottom: 150px;
     
    display: flex;
@@ -82,10 +86,14 @@ body {
 }
 
 .main-info {
+    padding: 15px 20px;
+    
+    border-radius: 10px;
+    
     font-family: 'IBM Plex Mono';
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
-    line-height: 23.4px;
+    line-height: 25px;
     text-align: left;
 
     background: #FF8DCB;
@@ -94,58 +102,76 @@ body {
 .flex-container {
     display: flex;
     justify-content: space-between;
-
+    
+    padding: 0 25px;
 }
 
 .bold-mini {
+    width: 300px;
+    
+    padding: 5px 10px;
+    border-radius: 10px;
+    
     font-family: 'IBM Plex Mono';
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
-    line-height: 23.4px;
+    line-height: 25px;
     text-align: left;
+    
+    background: #FFCBDB;
 }
 
 .block-info {
     display: flex;
     flex-direction: column;
-    gap: 25px
+    gap: 30px
 }
 
 .block-item {
     display: flex;
     flex-direction: column;
-    gap: 10px
+    gap: 15px
 }
 
 .head {
+    padding: 5px 10px;
+    border-radius: 10px;
+    
+    
     font-family: 'IBM Plex Mono';
     font-size: 18px;
     font-weight: 700;
-    line-height: 23.4px;
+    line-height: 24px;
     text-align: left;
     
     background: #FF8DCB;
 }
 
 .head-p {
+    padding: 5px 10px;
+    border-radius: 10px;
+    
     font-family: 'IBM Plex Mono';
     font-size: 18px;
     font-weight: 400;
-    line-height: 23.4px;
+    line-height: 24px;
     text-align: left;
+    
+    background: #FFCBDB;
 }
 
 .flex-container-2 {
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 30px;
     
-    padding: 150px 0;
+    padding: 150px 25px;
 }
 
 .block-info-2 {
     display: flex;
-    gap: 25px
+    justify-content: center;
+    gap: 30px
 
 }
 
@@ -153,47 +179,58 @@ body {
     display: flex;
     flex-direction: column;
     width: 315px;
-    gap: 10px
+    gap: 15px
 }
 
 .flex-container-3 {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 45px;
+    
+    padding: 0 25px;
 }
 
 .block-info-3 {
     display: flex;
     flex-direction: column;
-    gap: 20px
+    gap: 30px
 }
 
 .normal {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 30px;
 }
 
 .normal-text {
     display: flex;
     flex-direction: column;
-    gap: 10px
+    gap: 15px
 }
 
 .head-p-2 {
+    padding: 5px 10px;
+    border-radius: 10px;
+    
     font-family: 'IBM Plex Mono';
     font-size: 18px;
     font-weight: 400;
-    line-height: 23.4px;
+    line-height: 24px;
     text-align: left;
     
     width: 649px;
+    
+    background: #FFCBDB;
 }
 
 .regular-title {
+    padding: 5px 10px;
+    border-radius: 10px;
+    
     font-family: 'IBM Plex Mono';
     font-size: 18px;
     font-weight: 400;
-    line-height: 23.4px;
+    line-height: 24px;
     text-align: left;
     
     background: #FF8DCB;
@@ -207,7 +244,6 @@ body {
 }
 
 .footer-focus {
-    
     font-family: 'IBM Plex Mono';
     font-size: 157px;
     font-weight: 700;
